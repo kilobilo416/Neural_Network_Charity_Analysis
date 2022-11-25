@@ -12,6 +12,8 @@ Where a foundation should make investments in, is the clients inquiry. A binary 
 
 The "IS_SUCCESFUL" column was the target variable
 
+![split.png](images/split.png)
+
 ## What variable(s) are considered to be the features for your model?
 
 Original features included:
@@ -22,6 +24,8 @@ EIN, NAME, APPLICATION_TYPE, AFFILIATION, CLASSIFICATION, USE_BASE, ORGANIZATION
 
 EIN and NAME columns were removed
 
+![unique.png](images/unique.png)
+
 # Complie, Train, Evaluate, and Optimize the Model
 
 ## How many neurons, layers, and activation functions did you select for your neural network model, and why?
@@ -31,13 +35,13 @@ EIN and NAME columns were removed
 - Two total hidden layers and an output layer lay within this Neural Network model, each
   containing activation functions: "relu" / "relu" and "sigmoid".
 
-def img
+![define.png](images/define.png)
 
 ## Were you able to achieve the target model performance?
 
 The model did't meet the 75% target. 72.5% was the recorded accuracy with a loss of 55%.
 
-targ img
+![targ.png](images/targ.png)
 
 ## What steps did you take to try and increase model performance?
 
